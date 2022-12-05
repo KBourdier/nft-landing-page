@@ -3,7 +3,7 @@ const clockdiv = document.getElementById("countdown");
 const countDownTime = new Date(
   clockdiv.getAttribute("data-date")
 ).getTime();
-
+//the 4 blocks for time function
 const countdownfunction = setInterval(function () {
   const now = new Date().getTime();
   const diff = countDownTime - now;

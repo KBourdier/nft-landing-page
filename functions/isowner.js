@@ -30,7 +30,7 @@ exports.handler = async (event, context) => {
     'body': JSON.stringify(response)
   }
 }
-
+//call Owned NFTs
 const getOwnedNfts = async (wallet, page) => {
   const url = `https://api.nftport.xyz/v0/accounts/${wallet}/?`;
   
